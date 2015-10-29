@@ -1,8 +1,8 @@
 # Web Dev Tools
 
-The front page site for the web dev tools and frameworks.
+A collection of independent, but collaborative, tools to generate a custom, responsive framework for websites.
 
-**[Web Dev Tools](http://web-dev.tools/)**
+#### **[☛ Web Dev Tools](http://web-dev.tools/)**
 
 ---
 
