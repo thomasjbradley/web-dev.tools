@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://web-dev.tools/sitemap.xml
+
+User-Agent: *
+Disallow:

@@ -1,0 +1,11 @@
+- name: Gridifier
+  desc: "A tool that generates a responsive grid &amp; layout framework."
+  subdomain: gridifier
+
+- name: Typografier
+  desc: "A tool that generates a modular &amp; harmonious responsive type system."
+  subdomain: typografier
+
+- name: Modulifier
+  desc: "A tool that generates CSS for a common patterns and repeated code."
+  subdomain: modulifier

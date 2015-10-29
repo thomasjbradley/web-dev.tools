@@ -1,0 +1,17 @@
+:root {
+  --color-blue: #0074d9;
+  --color-blue-light: #b2d5f4;
+  --color-navy: #001f3f;
+  --color-red:  #ff4136;
+  --color-maroon: #85144b;
+
+  --font-brand: Menlo,Consolas,serif;
+
+  --color-interface-grey: #f2f2f2;
+  --color-interface-grey-dark: #ccc;
+  --color-text-grey: #333;
+
+  --color-help-purple: #8b3bab;
+  --color-help-purple-light: #d1b1dd;
+  --color-help-purple-dark: #461e55;
+}
