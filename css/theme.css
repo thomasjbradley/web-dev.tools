@@ -34,12 +34,23 @@ hr {
   color: var(--color-text-grey);
 }
 
-.box:hover {
+.box:hover,
+.box:focus {
   border-color: currentColor;
 }
 
-.box:hover .btn {
+.box:hover .btn,
+.box:focus .btn {
   background-color: #000;
   border-color: #000;
   color: #fff;
+}
+
+.logo {
+  color: var(--color-interface-grey-dark);
+}
+
+.logo:hover,
+.logo:focus {
+  color: #000;
 }

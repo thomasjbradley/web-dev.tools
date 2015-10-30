@@ -102,6 +102,7 @@ svg {
 
 .icon {
   display: inline-block;
+  position: relative;
   background: transparent none no-repeat center center;
   background-size: contain;
   vertical-align: middle;
@@ -130,6 +131,11 @@ svg {
 .i--48 {
   height: 48px;
   width: 48px;
+}
+
+.i--64 {
+  height: 64px;
+  width: 64px;
 }
 
 .icon svg {
