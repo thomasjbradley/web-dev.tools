@@ -11,9 +11,9 @@ layout: default
       {% for tool in site.data.tools %}
         <article class="unit s-1 l-1-3 island-1-2 unit-content-distribute">
           <a class="box link-box island content-fill unit-content-distribute" href="http://{{tool.subdomain}}.web-dev.tools/">
-            <h2 class="kilo ">{{tool.name}}</h2>
-            <p class="milli content-fill">{{tool.desc}}</p>
-            <span class="btn btn--ghost content-shrink">Use {{tool.name}}</span>
+            <h2 class="kilo">{{tool.name}}</h2>
+            <p class="micro content-fill">{{tool.desc}}</p>
+            <span class="btn btn--ghost milli content-shrink">Use {{tool.name}}</span>
           </a>
         </article>
       {% endfor %}
