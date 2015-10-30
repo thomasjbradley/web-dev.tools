@@ -4,13 +4,15 @@ layout: default
 <div class="main grid grid-middle gutter">
   <div class="unit s-1 pad-t">
 
-    <main>
+    <header role="banner">
       <h1 class="mega text-center" tabindex="0">Web Dev Tools</h1>
       <p class="text-center intro">A collection of independent, but collaborative, tools to generate a custom, responsive framework for websites.</p>
+    </header>
 
-      <hr>
+    <hr role="presentation">
 
-      <div class="grid grid-stretch push">
+    <main role="main">
+      <div class="grid grid-stretch push" role="navigation">
         {% for tool in site.data.tools %}
           <article class="unit s-1 l-1-3 island-1-2 unit-content-distribute">
             <a class="box link-box island content-fill unit-content-distribute" href="http://{{tool.subdomain}}.web-dev.tools/">
@@ -23,9 +25,9 @@ layout: default
       </div>
     </main>
 
-    <hr>
+    <hr role="presentation">
 
-    <footer class="text-center pad-b">
+    <footer class="text-center pad-b" role="contentinfo">
       <a class="logo icon i--32" href="http://thomasjbradley.ca" title="Developed by Thomas J Bradley">
         <svg viewBox="0 0 138 256">
           <title>Developed by Thomas J Bradley</title>
