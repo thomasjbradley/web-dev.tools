@@ -7,5 +7,5 @@
   subdomain: typografier
 
 - name: Modulifier
-  desc: "A tool that generates CSS for a common patterns and repeated code."
+  desc: "A tool that generates CSS for common patterns and repeated code."
   subdomain: modulifier
